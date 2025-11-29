@@ -100,19 +100,6 @@ class JumiaScraper:
         logger.info(f"Found {count} products on page")
 
         for i in range(count):
-            try:
-                card = product_cards.nth(i)
-                
-                # DEBUG: Save first card HTML to file
-                if i == 0:
-                    try:
-                        html_content = card.evaluate('el => el.outerHTML')
-                        with open('debug_card.html', 'w', encoding='utf-8') as f:
-                            f.write(html_content)
-                        logger.info("Saved first card HTML to debug_card.html")
-                    except Exception as e:
-                        logger.error(f"Failed to save debug card: {e}")
-                
                 # Extract URL and Link Element
                 link = card.locator("a.core")
                 if not link.count():
