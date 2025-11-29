@@ -100,6 +100,9 @@ class JumiaScraper:
         logger.info(f"Found {count} products on page")
 
         for i in range(count):
+            try:
+                card = product_cards.nth(i)
+
                 # Extract URL and Link Element
                 link = card.locator("a.core")
                 if not link.count():
