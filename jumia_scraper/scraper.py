@@ -73,21 +73,27 @@ class JumiaScraper:
         while current_scroll < page_height:
             current_scroll += viewport_height
             self.page.evaluate(f"window.scrollTo(0, {current_scroll})")
-            self.page.wait_for_timeout(500)  # Wait for content to load
+            self.page.wait_for_timeout(1000)  # Increased wait time
             
             # Update page height in case it grew (infinite scroll)
             new_height = self.page.evaluate("document.body.scrollHeight")
             if new_height > page_height:
                 page_height = new_height
 
-        # Final wait for images
-        self.page.wait_for_timeout(2000)
+        # Final wait for images and dynamic content
+        self.page.wait_for_timeout(3000)
         
         # Scroll back to top
         self.page.evaluate("window.scrollTo(0, 0)")
         self.page.wait_for_timeout(1000)
 
     def parse_page(self) -> List[ProductItem]:
+        # Ensure network is idle before scrolling
+        try:
+            self.page.wait_for_load_state("networkidle", timeout=10000)
+        except Exception:
+            pass
+            
         self._scroll_to_bottom()
         
         items = []
@@ -109,9 +115,21 @@ class JumiaScraper:
                     url = self.config.base_url + url
 
                 # ========== 必采字段 ==========
-                # Extract product_id (Jumia内部商品唯一ID) - on <a> tag
-                product_id = link.get_attribute("data-gtm-id")
+                # Extract product_id (Jumia内部商品唯一ID)
+                # Priority: data-gtm-id > data-id > form action
+                product_id = link.get_attribute("data-gtm-id") or link.get_attribute("data-id") or card.get_attribute("data-id")
                 
+                if not product_id:
+                    # Try to extract from form action
+                    form = card.locator("form")
+                    if form.count():
+                        action = form.get_attribute("action")
+                        if action:
+                            import re
+                            match = re.search(r'/products/([^/]+)/', action)
+                            if match:
+                                product_id = match.group(1)
+
                 # Extract Name
                 name = "Unknown"
                 name_el = card.locator("h3.name")
@@ -128,7 +146,8 @@ class JumiaScraper:
                     brand = name.split()[0] if name != "Unknown" else None
 
                 # Extract Price
-                price_el = card.locator("div.prc")
+                # Support both div.prc and p.prc
+                price_el = card.locator("div.prc, p.prc")
                 price_text = price_el.inner_text() if price_el.count() else "0"
                 price = clean_price(price_text)
 

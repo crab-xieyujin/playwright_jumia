@@ -397,9 +397,25 @@ elif page == "New Scrape Job":
                         status_container.write("✅ Scraping process completed successfully")
                         
                         # Load and count results
-                        if output_format == "jsonl" and os.path.exists(output_file):
-                            with open(output_file, 'r', encoding='utf-8') as f:
-                                products_data = [json.loads(line) for line in f if line.strip()]
+                        if output_format == "jsonl":
+                            if os.path.exists(output_file):
+                                file_size = os.path.getsize(output_file)
+                                st.info(f"Debug: File `{output_file}` found. Size: {file_size} bytes.")
+                                
+                                with open(output_file, 'r', encoding='utf-8') as f:
+                                    products_data = []
+                                    for i, line in enumerate(f):
+                                        line = line.strip()
+                                        if line:
+                                            try:
+                                                products_data.append(json.loads(line))
+                                            except json.JSONDecodeError as e:
+                                                st.warning(f"Debug: Failed to parse line {i+1}: {e}")
+                                
+                                st.info(f"Debug: Loaded {len(products_data)} items from file.")
+                            else:
+                                st.error(f"Debug: File `{output_file}` NOT found in {os.getcwd()}")
+                                products_data = []
                             
                             # Apply keyword filter if provided
                             if keyword_filter:
@@ -417,7 +433,12 @@ elif page == "New Scrape Job":
                             
                             product_count = len(products_data)
                             status_container.update(label="✅ Scraping Complete!", state="complete", expanded=False)
-                            st.success(f"Successfully scraped {product_count} items to `{output_file}`")
+                            
+                            if keyword_filter and len(products_data) < original_count:
+                                st.warning(f"Scraped {original_count} items, but only {product_count} matched your filter: '{keyword_filter}'")
+                                st.success(f"Saved {product_count} filtered items to `{output_file}`")
+                            else:
+                                st.success(f"Successfully scraped {product_count} items to `{output_file}`")
                             
                             # Preview
                             if product_count > 0:
