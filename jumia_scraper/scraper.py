@@ -103,15 +103,17 @@ class JumiaScraper:
             try:
                 card = product_cards.nth(i)
                 
-                # DEBUG: Print first card HTML
+                # DEBUG: Save first card HTML to file
                 if i == 0:
-                    logger.info(f"First card HTML: {card.evaluate('el => el.outerHTML')}")
+                    try:
+                        html_content = card.evaluate('el => el.outerHTML')
+                        with open('debug_card.html', 'w', encoding='utf-8') as f:
+                            f.write(html_content)
+                        logger.info("Saved first card HTML to debug_card.html")
+                    except Exception as e:
+                        logger.error(f"Failed to save debug card: {e}")
                 
-                # ========== 必采字段 ==========
-                # Extract product_id (Jumia内部商品唯一ID)
-                product_id = card.get_attribute("data-gtm-id")
-                
-                # Extract URL
+                # Extract URL and Link Element
                 link = card.locator("a.core")
                 if not link.count():
                     continue
@@ -120,6 +122,10 @@ class JumiaScraper:
                 if url and not url.startswith("http"):
                     url = self.config.base_url + url
 
+                # ========== 必采字段 ==========
+                # Extract product_id (Jumia内部商品唯一ID) - on <a> tag
+                product_id = link.get_attribute("data-gtm-id")
+                
                 # Extract Name
                 name = "Unknown"
                 name_el = card.locator("h3.name")
@@ -129,8 +135,8 @@ class JumiaScraper:
                 if name_el.count():
                     name = name_el.inner_text().strip()
 
-                # Extract Brand (data-gtm-brand)
-                brand = card.get_attribute("data-gtm-brand") or card.get_attribute("data-brand")
+                # Extract Brand (data-gtm-brand) - on <a> tag
+                brand = link.get_attribute("data-gtm-brand") or card.get_attribute("data-brand")
                 if not brand:
                     # Try to guess from name
                     brand = name.split()[0] if name != "Unknown" else None
@@ -159,9 +165,9 @@ class JumiaScraper:
                     if img_url and not img_url.startswith("http") and not img_url.startswith("data:"):
                         img_url = self.config.base_url + img_url
 
-                # Extract Rating (data-gtm-dimension27 或评分显示)
+                # Extract Rating (data-gtm-dimension27 或评分显示) - on <a> tag
                 rating = None
-                rating_attr = card.get_attribute("data-gtm-dimension27")
+                rating_attr = link.get_attribute("data-gtm-dimension27")
                 if rating_attr:
                     try:
                         rating = float(rating_attr)
@@ -177,9 +183,9 @@ class JumiaScraper:
                         except (ValueError, IndexError):
                             pass
 
-                # Extract Review Count (评论量)
+                # Extract Review Count (评论量) - on <a> tag
                 review_count = 0
-                review_attr = card.get_attribute("data-gtm-dimension26")
+                review_attr = link.get_attribute("data-gtm-dimension26")
                 if review_attr:
                     try:
                         review_count = int(review_attr)
@@ -196,12 +202,12 @@ class JumiaScraper:
                         if match:
                             review_count = int(match.group(1))
 
-                # Extract Seller ID (店铺ID)
-                seller_id = card.get_attribute("data-gtm-dimension23")
+                # Extract Seller ID (店铺ID) - on <a> tag
+                seller_id = link.get_attribute("data-gtm-dimension23")
 
-                # Extract Category Path (完整类目层级)
+                # Extract Category Path (完整类目层级) - on <a> tag
                 category_path = []
-                category_str = card.get_attribute("data-gtm-category")
+                category_str = link.get_attribute("data-gtm-category")
                 if category_str:
                     category_path = [c.strip() for c in category_str.split(" / ") if c.strip()]
 
@@ -229,15 +235,15 @@ class JumiaScraper:
                 # Extract is_express (是否为Jumia Express)
                 is_express = card.locator("svg.ic.xprss").count() > 0
 
-                # Extract GTM Tags (Jumia内部标签集)
+                # Extract GTM Tags (Jumia内部标签集) - on <a> tag
                 gtm_tags = []
-                gtm_tags_str = card.get_attribute("data-gtm-dimension43")
+                gtm_tags_str = link.get_attribute("data-gtm-dimension43")
                 if gtm_tags_str:
                     gtm_tags = [tag.strip() for tag in gtm_tags_str.split("|") if tag.strip()]
 
-                # Extract List Position (商品在列表页的排序位置)
+                # Extract List Position (商品在列表页的排序位置) - on <a> tag
                 list_position = None
-                position_str = card.get_attribute("data-gtm-position") or card.get_attribute("data-ga4-index")
+                position_str = link.get_attribute("data-gtm-position") or link.get_attribute("data-ga4-index")
                 if position_str:
                     try:
                         list_position = int(position_str)
@@ -256,22 +262,22 @@ class JumiaScraper:
                         if match:
                             rating_ratio = float(match.group(1)) / 100
 
-                # Extract GA4 Categories
-                ga4_category_1 = card.get_attribute("data-ga4-item_category")
-                ga4_category_2 = card.get_attribute("data-ga4-item_category2")
+                # Extract GA4 Categories - on <a> tag
+                ga4_category_1 = link.get_attribute("data-ga4-item_category")
+                ga4_category_2 = link.get_attribute("data-ga4-item_category2")
 
-                # Extract GA4 Price
+                # Extract GA4 Price - on <a> tag
                 ga4_price = None
-                ga4_price_str = card.get_attribute("data-ga4-price")
+                ga4_price_str = link.get_attribute("data-ga4-price")
                 if ga4_price_str:
                     try:
                         ga4_price = float(ga4_price_str)
                     except (ValueError, TypeError):
                         pass
 
-                # Extract is_second_chance
+                # Extract is_second_chance - on <a> tag
                 is_second_chance = None
-                second_chance_str = card.get_attribute("data-ga4-is_second_chance")
+                second_chance_str = link.get_attribute("data-ga4-is_second_chance")
                 if second_chance_str:
                     is_second_chance = second_chance_str.lower() == "true"
 
