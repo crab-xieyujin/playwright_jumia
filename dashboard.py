@@ -208,6 +208,8 @@ elif page == "Data Analytics":
         # Discount Analysis
         if 'discount_percentage' in df.columns and 'old_price' in df.columns:
             st.markdown("#### Discount Analysis")
+            # Fill NaN values in discount_percentage with 0 to avoid Plotly errors
+            df['discount_percentage'] = df['discount_percentage'].fillna(0)
             fig_discount = px.scatter(
                 df, 
                 x="old_price", 
