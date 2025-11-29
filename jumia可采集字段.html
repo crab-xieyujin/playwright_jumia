@@ -1,0 +1,204 @@
+<table border="1" cellspacing="0" cellpadding="6">
+  <thead>
+    <tr>
+      <th>字段名（你定义）</th>
+      <th>来源（HTML / data-*）</th>
+      <th>示例值</th>
+      <th>业务含义</th>
+      <th>类型</th>
+      <th>是否建议采集</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    <tr>
+      <td>product_url</td>
+      <td>&lt;a href="..."&gt;</td>
+      <td>/night-walker-eau-de-perfume-natural...</td>
+      <td>商品详情页链接（需拼接域名）</td>
+      <td>string</td>
+      <td>✔ 必采</td>
+    </tr>
+
+    <tr>
+      <td>product_id</td>
+      <td>data-gtm-id</td>
+      <td>NI627PF4C66LBNAFAMZ</td>
+      <td>Jumia 内部商品唯一ID</td>
+      <td>string</td>
+      <td>✔ 必采</td>
+    </tr>
+
+    <tr>
+      <td>name</td>
+      <td>&lt;h3 class="name"&gt;</td>
+      <td>Night Walker Eau De Perfume Natural...</td>
+      <td>商品标题</td>
+      <td>string</td>
+      <td>✔ 必采</td>
+    </tr>
+
+    <tr>
+      <td>brand</td>
+      <td>data-gtm-brand</td>
+      <td>Night Walker</td>
+      <td>品牌名称</td>
+      <td>string</td>
+      <td>✔ 必采</td>
+    </tr>
+
+    <tr>
+      <td>price</td>
+      <td>&lt;div class="prc"&gt;</td>
+      <td>₦ 2,400</td>
+      <td>现价（页面显示价格）</td>
+      <td>number</td>
+      <td>✔ 必采</td>
+    </tr>
+
+    <tr>
+      <td>old_price</td>
+      <td>&lt;div class="old"&gt;</td>
+      <td>₦ 5,000</td>
+      <td>原价（划线价）</td>
+      <td>number | null</td>
+      <td>✔ 建议采集</td>
+    </tr>
+
+    <tr>
+      <td>discount_pct</td>
+      <td>&lt;div class="bdg _dsct"&gt;</td>
+      <td>52%</td>
+      <td>折扣百分比</td>
+      <td>number</td>
+      <td>✔ 建议采集</td>
+    </tr>
+
+    <tr>
+      <td>rating</td>
+      <td>data-gtm-dimension27 或 &lt;div class="stars"&gt;</td>
+      <td>3.5</td>
+      <td>评分（5分制）</td>
+      <td>float</td>
+      <td>✔ 必采</td>
+    </tr>
+
+    <tr>
+      <td>rating_ratio</td>
+      <td>&lt;div class="in" style="width:70%"&gt;</td>
+      <td>0.70</td>
+      <td>用于评分计算（可校验）</td>
+      <td>float</td>
+      <td>⬤ 可选</td>
+    </tr>
+
+    <tr>
+      <td>review_count</td>
+      <td>(696) 或 data-gtm-dimension26</td>
+      <td>696</td>
+      <td>评论量（销量推断关键字段）</td>
+      <td>integer</td>
+      <td>✔ 必采</td>
+    </tr>
+
+    <tr>
+      <td>seller_id</td>
+      <td>data-gtm-dimension23</td>
+      <td>107787</td>
+      <td>店铺ID（Seller ID）</td>
+      <td>string</td>
+      <td>✔ 必采（可统计商家行为）</td>
+    </tr>
+
+    <tr>
+      <td>category_path</td>
+      <td>data-gtm-category</td>
+      <td>Health &amp; Beauty / ...</td>
+      <td>完整类目层级</td>
+      <td>string[]</td>
+      <td>✔ 必采（选品分析核心）</td>
+    </tr>
+
+    <tr>
+      <td>image_url</td>
+      <td>&lt;img data-src="..."&gt;</td>
+      <td>https://ng.jumia.is/...jpg</td>
+      <td>商品主图</td>
+      <td>string</td>
+      <td>✔ 必采</td>
+    </tr>
+
+    <tr>
+      <td>promo_tag</td>
+      <td>&lt;span class="bdg"&gt;</td>
+      <td>Black Friday deal</td>
+      <td>促销活动标签</td>
+      <td>string | null</td>
+      <td>✔ 建议采集（促销分析）</td>
+    </tr>
+
+    <tr>
+      <td>is_express</td>
+      <td>svg.ic.xprss</td>
+      <td>true</td>
+      <td>是否为 Jumia Express (Prime-like)</td>
+      <td>boolean</td>
+      <td>✔ 建议采集</td>
+    </tr>
+
+    <tr>
+      <td>gtm_tags</td>
+      <td>data-gtm-dimension43</td>
+      <td>APWK|BLF_05|CP_MT103|...</td>
+      <td>Jumia 内部标签集（销量/广告/运营）</td>
+      <td>string[]</td>
+      <td>✔ 高价值（运营判断）</td>
+    </tr>
+
+    <tr>
+      <td>ga4_category_1</td>
+      <td>data-ga4-item_category</td>
+      <td>Health &amp; Beauty</td>
+      <td>高维类目（GA4 结构）</td>
+      <td>string</td>
+      <td>⬤ 可选</td>
+    </tr>
+
+    <tr>
+      <td>ga4_category_2</td>
+      <td>data-ga4-item_category2</td>
+      <td>Beauty &amp; Personal Care</td>
+      <td>GA4 类目层级</td>
+      <td>string</td>
+      <td>⬤ 可选</td>
+    </tr>
+
+    <tr>
+      <td>ga4_price</td>
+      <td>data-ga4-price</td>
+      <td>1.43</td>
+      <td>GA4 用的价格（可能为美元或内部计价）</td>
+      <td>float</td>
+      <td>⬤ 可选</td>
+    </tr>
+
+    <tr>
+      <td>list_position</td>
+      <td>data-gtm-position / data-ga4-index</td>
+      <td>5</td>
+      <td>该商品在列表页的排序位置</td>
+      <td>integer</td>
+      <td>✔ 建议采集（用于销量推断）</td>
+    </tr>
+
+    <tr>
+      <td>is_second_chance</td>
+      <td>data-ga4-is_second_chance</td>
+      <td>false</td>
+      <td>是否为二次曝光（GA4）</td>
+      <td>boolean</td>
+      <td>⬤ 可选</td>
+    </tr>
+
+  </tbody>
+</table>

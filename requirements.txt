@@ -1,0 +1,7 @@
+playwright>=1.40.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+tenacity>=8.2.0
+fake-useragent>=1.4.0
+pandas>=2.1.0
+plotly>=5.18.0
