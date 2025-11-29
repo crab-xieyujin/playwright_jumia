@@ -61,35 +61,31 @@ class JumiaScraper:
             pass
 
     def _scroll_to_bottom(self):
-        """Scroll to bottom of page to trigger lazy loading"""
-        logger.info("Scrolling to bottom...")
-        last_height = self.page.evaluate("document.body.scrollHeight")
-        scroll_attempts = 0
-        max_attempts = 5
+        """Scroll to bottom to trigger lazy loading"""
+        logger.info("Scrolling to bottom to trigger lazy loading...")
         
-        while scroll_attempts < max_attempts:
-            # Scroll down
-            self.page.evaluate("window.scrollTo(0, document.body.scrollHeight);")
-            time.sleep(2)  # Increased wait time for images to load
+        # Get page height
+        page_height = self.page.evaluate("document.body.scrollHeight")
+        viewport_height = self.page.viewport_size["height"]
+        
+        # Scroll in steps
+        current_scroll = 0
+        while current_scroll < page_height:
+            current_scroll += viewport_height
+            self.page.evaluate(f"window.scrollTo(0, {current_scroll})")
+            self.page.wait_for_timeout(500)  # Wait for content to load
             
+            # Update page height in case it grew (infinite scroll)
             new_height = self.page.evaluate("document.body.scrollHeight")
-            if new_height == last_height:
-                break
-            last_height = new_height
-            scroll_attempts += 1
+            if new_height > page_height:
+                page_height = new_height
+
+        # Final wait for images
+        self.page.wait_for_timeout(2000)
         
-        # Scroll back to top slowly to trigger any remaining lazy loads
-        logger.info("Scrolling back to top to trigger image loads...")
-        self.page.evaluate("window.scrollTo(0, 0);")
-        time.sleep(1)
-        
-        # Scroll to middle
-        self.page.evaluate("window.scrollTo(0, document.body.scrollHeight / 2);")
-        time.sleep(2)  # Extra wait for images to fully load
-        
-        # Final scroll to bottom
-        self.page.evaluate("window.scrollTo(0, document.body.scrollHeight);")
-        time.sleep(2)
+        # Scroll back to top
+        self.page.evaluate("window.scrollTo(0, 0)")
+        self.page.wait_for_timeout(1000)
 
     def parse_page(self) -> List[ProductItem]:
         self._scroll_to_bottom()
@@ -140,20 +136,31 @@ class JumiaScraper:
                 img_el = card.locator("img.img")
                 img_url = None
                 if img_el.count():
-                    # Try data-src first (lazy loaded images)
+                    # Priority: data-src > src > srcset
+                    # Jumia uses data-src for lazy loading
                     img_url = img_el.get_attribute("data-src")
-                    # If not found or is placeholder, try src
-                    if not img_url or img_url.startswith("data:image"):
+                    
+                    if not img_url or img_url.startswith("data:"):
                         img_url = img_el.get_attribute("src")
-                    # If still placeholder or empty, try srcset
-                    if not img_url or img_url.startswith("data:image"):
+                    
+                    if not img_url or img_url.startswith("data:"):
                         srcset = img_el.get_attribute("srcset")
                         if srcset:
-                            # srcset format: "url1 1x, url2 2x"
                             img_url = srcset.split(',')[0].split()[0]
-                    # Make sure it's a full URL
-                    if img_url and not img_url.startswith("http") and not img_url.startswith("data:"):
-                        img_url = self.config.base_url + img_url
+
+                    # Clean up URL
+                    if img_url:
+                        img_url = img_url.strip()
+                        # Handle protocol-relative URLs (//example.com)
+                        if img_url.startswith("//"):
+                            img_url = "https:" + img_url
+                        # Handle relative URLs (/product/...)
+                        elif not img_url.startswith("http") and not img_url.startswith("data:"):
+                            img_url = self.config.base_url + img_url
+                        
+                        # Final check: if it's still a data URI, discard it
+                        if img_url.startswith("data:"):
+                            img_url = None
 
                 # Extract Rating (data-gtm-dimension27 或评分显示) - on <a> tag
                 rating = None

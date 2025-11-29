@@ -1,0 +1,1 @@
+ - Image missing for product 2. Attributes: {'cla
