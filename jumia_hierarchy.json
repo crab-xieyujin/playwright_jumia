@@ -1,0 +1,2203 @@
+[
+  {
+    "name": "Appliances",
+    "url": "https://www.jumia.com.ng/mlp-appliances/",
+    "subcategories": [
+      {
+        "name": "Small Appliances",
+        "url": "https://www.jumia.com.ng/kitchen-dinning-small-appliances/",
+        "children": [
+          {
+            "name": "Blenders",
+            "url": "https://www.jumia.com.ng/blenders/",
+            "count": 3610
+          },
+          {
+            "name": "Deep Fryers",
+            "url": "https://www.jumia.com.ng/deep-fryers/",
+            "count": 393
+          },
+          {
+            "name": "Juicers",
+            "url": "https://www.jumia.com.ng/juicers/",
+            "count": 1372
+          },
+          {
+            "name": "Air Fryers",
+            "url": "https://www.jumia.com.ng/air-fryers/",
+            "count": 2152
+          },
+          {
+            "name": "Rice Cookers",
+            "url": "https://www.jumia.com.ng/rice-cooker/",
+            "count": 163
+          },
+          {
+            "name": "Toasters & Ovens",
+            "url": "https://www.jumia.com.ng/ovens-toasters/",
+            "count": 1458
+          },
+          {
+            "name": "Microwaves",
+            "url": "https://www.jumia.com.ng/small-appliances-microwave/",
+            "count": 876
+          },
+          {
+            "name": "Bundles",
+            "url": "https://www.jumia.com.ng/cooking-appliances-kitchen-bundle/",
+            "count": 653
+          },
+          {
+            "name": "Vacuum Cleaners",
+            "url": "https://www.jumia.com.ng/vacuum-cleaners/",
+            "count": 722
+          },
+          {
+            "name": "Kettles",
+            "url": "https://www.jumia.com.ng/kettles/",
+            "count": 2330
+          },
+          {
+            "name": "Yam Pounders",
+            "url": "https://www.jumia.com.ng/yam-pounder/",
+            "count": 1735
+          },
+          {
+            "name": "Irons",
+            "url": "https://www.jumia.com.ng/ironing-laundry/",
+            "count": 1256
+          },
+          {
+            "name": "Electric Cookware ",
+            "url": "https://www.jumia.com.ng/electric-cookware/",
+            "count": 760
+          },
+          {
+            "name": "Electric Drink Mixers ",
+            "url": "https://www.jumia.com.ng/electric-drink-mixers/",
+            "count": 39
+          },
+          {
+            "name": "Food Processors",
+            "url": "https://www.jumia.com.ng/food-processors/",
+            "count": 986
+          },
+          {
+            "name": "Coffee Makers",
+            "url": "https://www.jumia.com.ng/coffee-makers/",
+            "count": 228
+          },
+          {
+            "name": "Electric Pressure Cookers",
+            "url": "https://www.jumia.com.ng/electric-pressure-cookers/",
+            "count": 193
+          }
+        ]
+      },
+      {
+        "name": "Large Appliances",
+        "url": "https://www.jumia.com.ng/home-improvement-appliances/",
+        "children": [
+          {
+            "name": "Washing Machines",
+            "url": "https://www.jumia.com.ng/appliances-washers-dryers/",
+            "count": 641
+          },
+          {
+            "name": "Fridges",
+            "url": "https://www.jumia.com.ng/appliances-fridges-freezers/",
+            "count": 575
+          },
+          {
+            "name": "Freezers",
+            "url": "https://www.jumia.com.ng/freezers/",
+            "count": 473
+          },
+          {
+            "name": "Air Conditioners",
+            "url": "https://www.jumia.com.ng/air-conditioners-d/",
+            "count": 1193
+          },
+          {
+            "name": "Heaters",
+            "url": "https://www.jumia.com.ng/space-heaters-accessories/",
+            "count": 99
+          },
+          {
+            "name": "Fans",
+            "url": "https://www.jumia.com.ng/household-fans/",
+            "count": 7200
+          },
+          {
+            "name": "Air Purifiers",
+            "url": "https://www.jumia.com.ng/air-purifier/?shipped_from=country_local",
+            "count": 127
+          },
+          {
+            "name": "Water Dispensers",
+            "url": "https://www.jumia.com.ng/water-dispenser/",
+            "count": 252
+          },
+          {
+            "name": "Generators & Inverters",
+            "url": "https://www.jumia.com.ng/patio-lawn-garden/",
+            "count": 14945
+          }
+        ]
+      },
+      {
+        "name": "Home Appliances",
+        "url": "https://www.jumia.com.ng/home-office-appliances/",
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "Phones & Tablets",
+    "url": "https://www.jumia.com.ng/phones-tablets/",
+    "subcategories": [
+      {
+        "name": "Mobile Phones",
+        "url": "https://www.jumia.com.ng/mobile-phones/",
+        "children": [
+          {
+            "name": "Smartphones",
+            "url": "https://www.jumia.com.ng/smartphones/",
+            "count": 6959
+          },
+          {
+            "name": "Android Phones",
+            "url": "https://www.jumia.com.ng/android-phones/",
+            "count": 6176
+          },
+          {
+            "name": "iPhones",
+            "url": "https://www.jumia.com.ng/ios-phones/",
+            "count": 706
+          },
+          {
+            "name": "Basic Phones",
+            "url": "https://www.jumia.com.ng/cell-phones/",
+            "count": 2026
+          },
+          {
+            "name": "Refurbished Phones",
+            "url": "https://www.jumia.com.ng/mlp-refurbished-phones/",
+            "count": 18
+          },
+          {
+            "name": "Rugged Phones",
+            "url": "https://www.jumia.com.ng/mlp-rugged-phone/",
+            "count": 1900
+          },
+          {
+            "name": "Cordless Telephones",
+            "url": "https://www.jumia.com.ng/cordless-telephones/",
+            "count": 605
+          },
+          {
+            "name": "Dual Sim Phones",
+            "url": "https://www.jumia.com.ng/mlp-dual-sim/",
+            "count": 3646
+          }
+        ]
+      },
+      {
+        "name": "Tablets",
+        "url": "https://www.jumia.com.ng/tablets/",
+        "children": [
+          {
+            "name": "iPads",
+            "url": "https://www.jumia.com.ng/ipads/",
+            "count": 74
+          },
+          {
+            "name": "Android Tablets",
+            "url": "https://www.jumia.com.ng/other-tablets/",
+            "count": 604
+          },
+          {
+            "name": "Educational Tablets",
+            "url": "https://www.jumia.com.ng/educational-tablets/",
+            "count": 2399
+          },
+          {
+            "name": "Tablet Accessories",
+            "url": "https://www.jumia.com.ng/tablet-accessories/",
+            "count": 1744
+          },
+          {
+            "name": "Amazon Fire Tablets",
+            "url": "https://www.jumia.com.ng/mlp-amazon-fire-tablet/",
+            "count": 3
+          },
+          {
+            "name": "Microsoft Tablets",
+            "url": "https://www.jumia.com.ng/tablets/microsoft/",
+            "count": 18
+          }
+        ]
+      },
+      {
+        "name": "Mobile Accessories",
+        "url": "https://www.jumia.com.ng/mobile-accessories/",
+        "children": [
+          {
+            "name": "Accessory Kits",
+            "url": "https://www.jumia.com.ng/mobile-phone-accessory-kits/",
+            "count": 185
+          },
+          {
+            "name": "Adapters",
+            "url": "https://www.jumia.com.ng/mobile-phone-adapters/",
+            "count": 418
+          },
+          {
+            "name": "Batteries",
+            "url": "https://www.jumia.com.ng/phones-battery-packs/",
+            "count": 51
+          },
+          {
+            "name": "Battery Chargers",
+            "url": "https://www.jumia.com.ng/mobile-phone-chargers-adaptors/",
+            "count": 4285
+          },
+          {
+            "name": "Bluetooth Headsets",
+            "url": "https://www.jumia.com.ng/mobile-phone-bluetooth-headsets/",
+            "count": 3632
+          },
+          {
+            "name": "Cables",
+            "url": "https://www.jumia.com.ng/mobile-phone-accessories-cables/",
+            "count": 661
+          },
+          {
+            "name": "Car Accessories",
+            "url": "https://www.jumia.com.ng/mobile-phones-car-accessories/",
+            "count": 532
+          },
+          {
+            "name": "Chargers",
+            "url": "https://www.jumia.com.ng/mobile-phone-chargers-adaptors/",
+            "count": 4285
+          },
+          {
+            "name": "Earphones & Headsets",
+            "url": "https://www.jumia.com.ng/mobile-phone-headsets/",
+            "count": 3354
+          },
+          {
+            "name": "MicroSD Cards",
+            "url": "https://www.jumia.com.ng/micro-sd-cards/",
+            "count": 101
+          },
+          {
+            "name": "Screen Protectors",
+            "url": "https://www.jumia.com.ng/mobile-phone-screen-protectors/",
+            "count": 16862
+          },
+          {
+            "name": "Selfie Sticks & Tripods",
+            "url": "https://www.jumia.com.ng/selfie-sticks-tripods/",
+            "count": 1755
+          },
+          {
+            "name": "Smart Watches",
+            "url": "https://www.jumia.com.ng/smart-watches/",
+            "count": 10419
+          },
+          {
+            "name": "Power Banks",
+            "url": "https://www.jumia.com.ng/mobile-phone-accessories-power-banks/",
+            "count": 5845
+          },
+          {
+            "name": "Phone Camera Lenses",
+            "url": "https://www.jumia.com.ng/mlp-phone-lenses/",
+            "count": 95
+          }
+        ]
+      },
+      {
+        "name": "Top Smartphones",
+        "url": "https://www.jumia.com.ng/smartphones/",
+        "children": [
+          {
+            "name": "iPhone 15 & 15 Pro Max",
+            "url": "https://www.jumia.com.ng/mlp-iphone-15/",
+            "count": 2380
+          },
+          {
+            "name": "Samsung Galaxy S24 & S24 Ultra",
+            "url": "https://www.jumia.com.ng/mlp-samsung-galaxy-s24/",
+            "count": 1498
+          },
+          {
+            "name": "Tecno Spark 20 & 20 Pro",
+            "url": "https://www.jumia.com.ng/catalog/?q=iphone+11",
+            "count": 2407
+          },
+          {
+            "name": "Itel S23 & S23 Plus",
+            "url": "https://www.jumia.com.ng/mlp-itel-s23/",
+            "count": 53
+          },
+          {
+            "name": "Infinix Smart 8",
+            "url": "https://www.jumia.com.ng/mlp-infinix-smart-8/",
+            "count": 506
+          },
+          {
+            "name": "Xiaomi Redmi 13c",
+            "url": "https://www.jumia.com.ng/mlp-xiaomi-redmi-13c/",
+            "count": 172
+          },
+          {
+            "name": "Infinix Hot 40i",
+            "url": "https://www.jumia.com.ng/mlp-infinix-hot-40i/",
+            "count": 104
+          },
+          {
+            "name": "Tecno Pop 8",
+            "url": "https://www.jumia.com.ng/mlp-tecno-pop-8/",
+            "count": 148
+          },
+          {
+            "name": " Itel A70",
+            "url": "https://www.jumia.com.ng/mlp-itel-a70/",
+            "count": 27
+          }
+        ]
+      },
+      {
+        "name": "Top Phone Brands",
+        "url": "https://www.jumia.com.ngmlp-official-stores/mobile-phones/",
+        "children": [
+          {
+            "name": "Samsung",
+            "url": "https://www.jumia.com.ng/mobile-phones/samsung/",
+            "count": 3661
+          },
+          {
+            "name": "Apple",
+            "url": "https://www.jumia.com.ng/ios-phones/",
+            "count": 706
+          },
+          {
+            "name": "Xiaomi",
+            "url": "https://www.jumia.com.ng/smartphones/xiaomi/",
+            "count": 609
+          },
+          {
+            "name": "Itel",
+            "url": "https://www.jumia.com.ng/itel/",
+            "count": 2552
+          },
+          {
+            "name": "Tecno",
+            "url": "https://www.jumia.com.ng/phones-tablets/tecno/",
+            "count": 2933
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Health & Beauty",
+    "url": "https://www.jumia.com.ng/health-beauty/",
+    "subcategories": [
+      {
+        "name": "Make Up",
+        "url": "https://www.jumia.com.ng/womens-make-up/",
+        "children": [
+          {
+            "name": "Concealers & Color Correctors",
+            "url": "https://www.jumia.com.ng/concealers-neutralizers-makeup/",
+            "count": 136
+          },
+          {
+            "name": "Foundation",
+            "url": "https://www.jumia.com.ng/face-foundation-makeup/",
+            "count": 171
+          },
+          {
+            "name": "Powder",
+            "url": "https://www.jumia.com.ng/face-powder-makeup/",
+            "count": 300
+          },
+          {
+            "name": "Lipstick",
+            "url": "https://www.jumia.com.ng/lipstick-makeup/",
+            "count": 263
+          },
+          {
+            "name": "Eyeliner & Kajal",
+            "url": "https://www.jumia.com.ng/eyeliner-makeup/",
+            "count": 171
+          },
+          {
+            "name": "Mascara",
+            "url": "https://www.jumia.com.ng/eyes-mascara/",
+            "count": 74
+          }
+        ]
+      },
+      {
+        "name": "Personal Care",
+        "url": "https://www.jumia.com.ng/personal-care-d/",
+        "children": [
+          {
+            "name": "Skin Care",
+            "url": "https://www.jumia.com.ng/skin-care-prducts/",
+            "count": 53344
+          },
+          {
+            "name": "Sunscreens & Tanning Products",
+            "url": "https://www.jumia.com.ng/personal-skin-care-sunscreens-tanning-products/",
+            "count": 974
+          },
+          {
+            "name": "Contraceptives & Lubricants",
+            "url": "https://www.jumia.com.ng/safer-sex-products/",
+            "count": 1150
+          },
+          {
+            "name": "Piercing & Tattoo Supplies",
+            "url": "https://www.jumia.com.ng/personal-care-styling-piercing-tattoo-supplies/",
+            "count": 176
+          },
+          {
+            "name": "Deodorants & Antiperspirants",
+            "url": "https://www.jumia.com.ng/styling-products-deodorant-antiperspirants/",
+            "count": 1052
+          },
+          {
+            "name": "Lip Care",
+            "url": "https://www.jumia.com.ng/personal-care-styling-lip-care/",
+            "count": 699
+          }
+        ]
+      },
+      {
+        "name": "Fragrances",
+        "url": "https://www.jumia.com.ng/fragrances-allgenders/",
+        "children": [
+          {
+            "name": "Women's",
+            "url": "https://www.jumia.com.ng/womens-fragrances/",
+            "count": 14314
+          },
+          {
+            "name": "Men's",
+            "url": "https://www.jumia.com.ng/mens-fragrances/",
+            "count": 29191
+          }
+        ]
+      },
+      {
+        "name": "Hair Care",
+        "url": "https://www.jumia.com.ng/hair-care-d/",
+        "children": [
+          {
+            "name": "Hair Cutting Tools",
+            "url": "https://www.jumia.com.ng/hair-cutting-tools/",
+            "count": 378
+          },
+          {
+            "name": "Shampoo & Conditioner",
+            "url": "https://www.jumia.com.ng/shampoo-conditioner-sets/",
+            "count": 46
+          },
+          {
+            "name": "Wigs & Accessories",
+            "url": "https://www.jumia.com.ng/extensions-wigs-accessories/",
+            "count": 2930
+          }
+        ]
+      },
+      {
+        "name": "Oral Care",
+        "url": "https://www.jumia.com.ng/personal-oral-care/",
+        "children": [
+          {
+            "name": "Teeth Whitening",
+            "url": "https://www.jumia.com.ng/teeth-whitening/",
+            "count": 150
+          },
+          {
+            "name": "Toothpaste",
+            "url": "https://www.jumia.com.ng/oral-care-toothpastes/",
+            "count": 593
+          }
+        ]
+      },
+      {
+        "name": "Health Care",
+        "url": "https://www.jumia.com.ng/health-care/",
+        "children": [
+          {
+            "name": "First Aid",
+            "url": "https://www.jumia.com.ng/health-first-aid/",
+            "count": 1233
+          },
+          {
+            "name": "Medical Supplies & Equipment",
+            "url": "https://www.jumia.com.ng/medical-supplies-equipment/",
+            "count": 6076
+          },
+          {
+            "name": "Alternative Medicine",
+            "url": "https://www.jumia.com.ng/alternative-medicine/",
+            "count": 738
+          },
+          {
+            "name": "Feminine Care",
+            "url": "https://www.jumia.com.ng/feminine-hygiene/",
+            "count": 1344
+          },
+          {
+            "name": "Diabetes Care",
+            "url": "https://www.jumia.com.ng/diabetes-care/",
+            "count": 585
+          }
+        ]
+      },
+      {
+        "name": "Vitamins & Dietary Supplements",
+        "url": "https://www.jumia.com.ng/sp-supplement-disclaimer/",
+        "children": [
+          {
+            "name": "Vitamins & Minerals",
+            "url": "https://www.jumia.com.ng/sp-supplement-disclaimer-vitamins/",
+            "count": 0
+          },
+          {
+            "name": "Supplements",
+            "url": "https://www.jumia.com.ng/sp-supplement-disclaimer/",
+            "count": 0
+          },
+          {
+            "name": "Multi & Prenatal Vitamins",
+            "url": "https://www.jumia.com.ng/sp-supplement-disclaimer-health-supliment-multi-prenatal-Vitamins/",
+            "count": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Home & Office",
+    "url": "https://www.jumia.com.ng/home-office/",
+    "subcategories": [
+      {
+        "name": "Home & Kitchen",
+        "url": "https://www.jumia.com.ng/home-kitchen/",
+        "children": [
+          {
+            "name": "Bath",
+            "url": "https://www.jumia.com.ng/bath/",
+            "count": 6892
+          },
+          {
+            "name": "Bedding",
+            "url": "https://www.jumia.com.ng/bedding/",
+            "count": 7950
+          },
+          {
+            "name": "Home Decor",
+            "url": "https://www.jumia.com.ng/home-decor/",
+            "count": 13493
+          },
+          {
+            "name": "Home Furniture",
+            "url": "https://www.jumia.com.ng/home-kitchen-furniture/",
+            "count": 9738
+          },
+          {
+            "name": "Vacuums & Floor Care",
+            "url": "https://www.jumia.com.ng/floor-care/",
+            "count": 867
+          },
+          {
+            "name": "Wall Art",
+            "url": "https://www.jumia.com.ng/wall-art/",
+            "count": 1065
+          },
+          {
+            "name": "Cookware",
+            "url": "https://www.jumia.com.ng/kitchen-dining-cookware/",
+            "count": 4691
+          },
+          {
+            "name": "Bakeware",
+            "url": "https://www.jumia.com.ng/kitchen-dining-bakeware/",
+            "count": 1589
+          },
+          {
+            "name": "Small Appliances",
+            "url": "https://www.jumia.com.ng/kitchen-dinning-small-appliances/",
+            "count": 18126
+          },
+          {
+            "name": "Cutlery & Knife Accessories",
+            "url": "https://www.jumia.com.ng/cutlery-kinfe-accessories/",
+            "count": 2765
+          }
+        ]
+      },
+      {
+        "name": "Office Products",
+        "url": "https://www.jumia.com.ng/office-products/",
+        "children": [
+          {
+            "name": "Office & School Supplies",
+            "url": "https://www.jumia.com.ng/office-school-supplies/",
+            "count": 5989
+          },
+          {
+            "name": "Office Furniture & Lighting",
+            "url": "https://www.jumia.com.ng/office-furniture-lighting/",
+            "count": 2643
+          },
+          {
+            "name": "Packaging Materials",
+            "url": "https://www.jumia.com.ng/packing-materials/",
+            "count": 158
+          }
+        ]
+      },
+      {
+        "name": "Home & Office Furniture",
+        "url": "https://www.jumia.com.ng/home-furniture/",
+        "children": [
+          {
+            "name": "Kitchen & Dining",
+            "url": "https://www.jumia.com.ng/kitchen-dining-room-furniture/",
+            "count": 958
+          },
+          {
+            "name": "Lighting",
+            "url": "https://www.jumia.com.ng/home-lighting/",
+            "count": 1761
+          },
+          {
+            "name": "Stationery",
+            "url": "https://www.jumia.com.ng/home-office-stationery/",
+            "count": 22
+          },
+          {
+            "name": "Storage & Organization",
+            "url": "https://www.jumia.com.ng/storage-organization-home-office/",
+            "count": 170
+          }
+        ]
+      },
+      {
+        "name": "Outdoor & Garden",
+        "url": "https://www.jumia.com.ng/patio-lawn-garden/",
+        "children": [
+          {
+            "name": "Generator",
+            "url": "https://www.jumia.com.ng/generators-portable-power/",
+            "count": 4772
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Electronics",
+    "url": "https://www.jumia.com.ng/electronics/",
+    "subcategories": [
+      {
+        "name": "Television & Video",
+        "url": "https://www.jumia.com.ng/electronic-television-video/",
+        "children": [
+          {
+            "name": "Televisions",
+            "url": "https://www.jumia.com.ng/televisions/",
+            "count": 2595
+          },
+          {
+            "name": "Smart TVs",
+            "url": "https://www.jumia.com.ng/smart-tvs/",
+            "count": 628
+          },
+          {
+            "name": "LED & LCD TVs",
+            "url": "https://www.jumia.com.ng/led-lcd-tvs/",
+            "count": 552
+          },
+          {
+            "name": "QLED & OLED TVs",
+            "url": "https://www.jumia.com.ng/oled-tvs/",
+            "count": 6
+          },
+          {
+            "name": "Curved TV",
+            "url": "https://www.jumia.com.ng/mlp-curved-tv/",
+            "count": 9
+          },
+          {
+            "name": "LG TV",
+            "url": "https://www.jumia.com.ng/televisions/lg/",
+            "count": 161
+          },
+          {
+            "name": "Hisense TV",
+            "url": "https://www.jumia.com.ng/televisions/hisense/",
+            "count": 270
+          },
+          {
+            "name": "Samsung TV",
+            "url": "https://www.jumia.com.ng/televisions/samsung/",
+            "count": 399
+          },
+          {
+            "name": "Smart TV 32 Inches",
+            "url": "https://www.jumia.com.ng/mlp-32-inch-smart-tvs/",
+            "count": 280
+          },
+          {
+            "name": "Smart TV 43 Inches",
+            "url": "https://www.jumia.com.ng/mlp-smart-tv-43-inches/",
+            "count": 249
+          },
+          {
+            "name": "Smart TV 55 Inches",
+            "url": "https://www.jumia.com.ng/mlp-55-inch-smart-tv/",
+            "count": 618
+          },
+          {
+            "name": "TV Accessories",
+            "url": "https://www.jumia.com.ng/tv-accessories-parts/",
+            "count": 1133
+          },
+          {
+            "name": "DVD Players & Recorders",
+            "url": "https://www.jumia.com.ng/electronics-dvd-players/",
+            "count": 176
+          }
+        ]
+      },
+      {
+        "name": "Cameras & Photos",
+        "url": "https://www.jumia.com.ng/cameras/",
+        "children": [
+          {
+            "name": "Digital Cameras",
+            "url": "https://www.jumia.com.ng/digital-cameras/",
+            "count": 0
+          },
+          {
+            "name": "Projectors",
+            "url": "https://www.jumia.com.ng/photo-projectors/",
+            "count": 29
+          },
+          {
+            "name": "Video Surveillance",
+            "url": "https://www.jumia.com.ng/video-surveillance/",
+            "count": 4059
+          },
+          {
+            "name": "CCTV Cameras ",
+            "url": "https://www.jumia.com.ng/mlp-cctv-cameras/",
+            "count": 3979
+          },
+          {
+            "name": "Compact Cameras",
+            "url": "https://www.jumia.com.ng/dgital-compact-cameras/",
+            "count": 20
+          },
+          {
+            "name": "SLR Digital Cameras",
+            "url": "https://www.jumia.com.ng/digital-slr-cameras/",
+            "count": 859
+          },
+          {
+            "name": "Professional Video Cameras",
+            "url": "https://www.jumia.com.ng/professional-video-cameras/",
+            "count": 431
+          },
+          {
+            "name": "Sport & Action Cameras",
+            "url": "https://www.jumia.com.ng/action-4865/",
+            "count": 18
+          },
+          {
+            "name": "Instant Cameras",
+            "url": "https://www.jumia.com.ng/mlp-instant-camera/",
+            "count": 72
+          },
+          {
+            "name": "Drones with Camera",
+            "url": "https://www.jumia.com.ng/quadcopters-video-quadcopters-accessories/",
+            "count": 212
+          },
+          {
+            "name": "Nikon",
+            "url": "https://www.jumia.com.ng/nikon/",
+            "count": 229
+          }
+        ]
+      },
+      {
+        "name": "Home Audio",
+        "url": "https://www.jumia.com.ng/home-audio-electronics/",
+        "children": [
+          {
+            "name": "Home Theatre Systems",
+            "url": "https://www.jumia.com.ng/home-theatre/",
+            "count": 2572
+          },
+          {
+            "name": "Receivers & Amplifiers",
+            "url": "https://www.jumia.com.ng/home-theatre-systems-receivers-amplifiers/",
+            "count": 25
+          },
+          {
+            "name": "Sound Bars",
+            "url": "https://www.jumia.com.ng/home-theatre-systems-sound-bars/",
+            "count": 807
+          },
+          {
+            "name": "LG Home Theater System",
+            "url": "https://www.jumia.com.ng/home-theatre/lg/",
+            "count": 232
+          },
+          {
+            "name": "Hisense Sound Bar ",
+            "url": "https://www.jumia.com.ng/home-theatre-systems-sound-bars/hisense/",
+            "count": 83
+          },
+          {
+            "name": "Bluetooth Speakers",
+            "url": "https://www.jumia.com.ng/bluetooth-speakers/",
+            "count": 2403
+          },
+          {
+            "name": "Subwoofers",
+            "url": "https://www.jumia.com.ng/home-theater-systems-subwoofers/",
+            "count": 214
+          },
+          {
+            "name": "LG",
+            "url": null,
+            "count": null
+          },
+          {
+            "name": "JBL",
+            "url": "https://www.jumia.com.ng/jbl/",
+            "count": 1167
+          }
+        ]
+      },
+      {
+        "name": "Generators & Portable Power",
+        "url": "https://www.jumia.com.ng/generators-portable-power/",
+        "children": [
+          {
+            "name": "Generators",
+            "url": "https://www.jumia.com.ng/generators/",
+            "count": 465
+          },
+          {
+            "name": "Power Inverters",
+            "url": "https://www.jumia.com.ng/inverters/",
+            "count": 197
+          },
+          {
+            "name": "Solar & Wind Power",
+            "url": "https://www.jumia.com.ng/solar-wind-power/",
+            "count": 2546
+          },
+          {
+            "name": "Stablizers",
+            "url": "https://www.jumia.com.ng/stabilizers-6372/",
+            "count": 350
+          },
+          {
+            "name": "Batteries ",
+            "url": "https://www.jumia.com.ng/electonics-accessories-batteries/",
+            "count": 1204
+          },
+          {
+            "name": "Lithium Battery",
+            "url": "https://www.jumia.com.ng/lithium-battery/",
+            "count": 0
+          },
+          {
+            "name": "Battery Charger",
+            "url": "https://www.jumia.com.ng/household-battery-chargers/",
+            "count": 1226
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fashion",
+    "url": "https://www.jumia.com.ng/category-fashion-by-jumia/",
+    "subcategories": [
+      {
+        "name": "Women's Fashion",
+        "url": "https://www.jumia.com.ng/womens-fashion/?source=flmenu",
+        "children": [
+          {
+            "name": "Clothing",
+            "url": "https://www.jumia.com.ng/womens-clothing/",
+            "count": 34218
+          },
+          {
+            "name": "Shoes",
+            "url": "https://www.jumia.com.ng/womens-shoes/",
+            "count": 11604
+          },
+          {
+            "name": "Accessories",
+            "url": "https://www.jumia.com.ng/womens-fashion-accessories/",
+            "count": 5150
+          },
+          {
+            "name": "Jewelry",
+            "url": "https://www.jumia.com.ng/womens-jewelry/",
+            "count": 19744
+          },
+          {
+            "name": "Handbags & Wallets",
+            "url": "https://www.jumia.com.ng/womens-bags/",
+            "count": 7334
+          },
+          {
+            "name": "Underwear & Sleepwear",
+            "url": "https://www.jumia.com.ng/womens-fashion-underwear-sleepwear/",
+            "count": 2312
+          },
+          {
+            "name": "Maternity",
+            "url": "https://www.jumia.com.ng/womens-maternity/",
+            "count": 389
+          },
+          {
+            "name": "Dresses",
+            "url": "https://www.jumia.com.ng/womens-dresses/",
+            "count": 14003
+          },
+          {
+            "name": "Traditional",
+            "url": "https://www.jumia.com.ng/womens-traditional/",
+            "count": 6
+          },
+          {
+            "name": "Beach & Swimwear",
+            "url": "https://www.jumia.com.ng/womens-beach-swimwear/",
+            "count": 48
+          },
+          {
+            "name": "Flats",
+            "url": "https://www.jumia.com.ng/womens-flats/",
+            "count": 598
+          },
+          {
+            "name": "Women Costumes & Accessories",
+            "url": "https://www.jumia.com.ng/womens-costumes-accessories/",
+            "count": 487
+          }
+        ]
+      },
+      {
+        "name": "Kid's Fashion",
+        "url": "https://www.jumia.com.ng/kids-fashion/",
+        "children": [
+          {
+            "name": "Boy's Fashion",
+            "url": "https://www.jumia.com.ng/boys-fashion/",
+            "count": 6189
+          },
+          {
+            "name": "Girl's Fashion",
+            "url": "https://www.jumia.com.ng/teen-girls-fashion/",
+            "count": 7000
+          }
+        ]
+      },
+      {
+        "name": "Men's Fashion",
+        "url": "https://www.jumia.com.ng/mens-fashion/?source=flmenu",
+        "children": [
+          {
+            "name": "Clothing",
+            "url": "https://www.jumia.com.ng/men-clothing/",
+            "count": 36931
+          },
+          {
+            "name": "Shoes",
+            "url": "https://www.jumia.com.ng/mens-shoes/",
+            "count": 21438
+          },
+          {
+            "name": "Accessories",
+            "url": "https://www.jumia.com.ng/mens-fashion-accessories/",
+            "count": 14862
+          },
+          {
+            "name": "Underwear & Sleepwear",
+            "url": "https://www.jumia.com.ng/mens-underwear-sleepwear/",
+            "count": 648
+          },
+          {
+            "name": "Traditional & Cultural Wear",
+            "url": "https://www.jumia.com.ng/fashion-mens-fashion-traditional-cultural-wear/",
+            "count": 1225
+          },
+          {
+            "name": "T-Shirts",
+            "url": "https://www.jumia.com.ng/mens-shirts/",
+            "count": 7583
+          },
+          {
+            "name": "Polo Shirts",
+            "url": "https://www.jumia.com.ng/mens-polos/",
+            "count": 1412
+          },
+          {
+            "name": "Trousers & Chinos",
+            "url": "https://www.jumia.com.ng/mens-pants/",
+            "count": 8227
+          },
+          {
+            "name": "Sneakers",
+            "url": "https://www.jumia.com.ng/men-sneakers/",
+            "count": 2377
+          },
+          {
+            "name": "Jewelry",
+            "url": "https://www.jumia.com.ng/mens-jewelry/",
+            "count": 9980
+          },
+          {
+            "name": "Jerseys",
+            "url": "https://www.jumia.com.ng/mens-jerseys/",
+            "count": 39
+          }
+        ]
+      },
+      {
+        "name": "ALL FASHION",
+        "url": "https://www.jumia.com.ng/category-fashion-by-jumia/",
+        "children": [
+          {
+            "name": "Fabrics",
+            "url": "https://www.jumia.com.ng/fabrics/",
+            "count": 3844
+          },
+          {
+            "name": "Luggage & Travel Gear",
+            "url": "https://www.jumia.com.ng/luggage-travel-gear/",
+            "count": 3075
+          },
+          {
+            "name": "Multi-Pack\t",
+            "url": "https://www.jumia.com.ng/fashion-multi-pack/",
+            "count": 1390
+          },
+          {
+            "name": "Traditional & Cultural Wear",
+            "url": "https://www.jumia.com.ng/traditional-cultural-wear/",
+            "count": 47
+          },
+          {
+            "name": "Uniforms, Work & Safety\t",
+            "url": "https://www.jumia.com.ng/uniforms-work-safety-fashion/",
+            "count": 101
+          },
+          {
+            "name": "Weddings\t",
+            "url": "https://www.jumia.com.ng/fashion-weddings/",
+            "count": 807
+          }
+        ]
+      },
+      {
+        "name": "Watches",
+        "url": "https://www.jumia.com.ng/watches-sunglasses/",
+        "children": [
+          {
+            "name": "Men's Watches",
+            "url": "https://www.jumia.com.ng/mens-watches/",
+            "count": 5283
+          },
+          {
+            "name": "Women's Watches",
+            "url": "https://www.jumia.com.ng/womens-watches/",
+            "count": 8612
+          }
+        ]
+      },
+      {
+        "name": "Sunglasses",
+        "url": null,
+        "children": [
+          {
+            "name": "Men's Sunglasses",
+            "url": "https://www.jumia.com.ng/mens-sunglasses/",
+            "count": 944
+          },
+          {
+            "name": "Women's Sunglasses",
+            "url": "https://www.jumia.com.ng/womens-accessories-sunglasses/",
+            "count": 977
+          }
+        ]
+      },
+      {
+        "name": "Top Brands",
+        "url": "https://www.jumia.com.ngmlp-official-stores/category-fashion-by-jumia/",
+        "children": [
+          {
+            "name": "Adidas",
+            "url": "https://www.jumia.com.ng/mlp-adidas-store/",
+            "count": 424
+          },
+          {
+            "name": "DeFacto",
+            "url": "https://www.jumia.com.ng/mlp-defacto-store/",
+            "count": 189
+          },
+          {
+            "name": "Nike",
+            "url": "https://www.jumia.com.ng/mlp-nike-store/",
+            "count": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Supermarket",
+    "url": "https://www.jumia.com.ng/groceries/",
+    "subcategories": [
+      {
+        "name": "Food Cupboard",
+        "url": "https://www.jumia.com.ng/food-cupboard-supplies/",
+        "children": [
+          {
+            "name": "Grains & Rice",
+            "url": "https://www.jumia.com.ng/dried-beans-grains-rice/",
+            "count": 10
+          },
+          {
+            "name": "Pasta & Noodles",
+            "url": "https://www.jumia.com.ng/noodles-3404/",
+            "count": 0
+          },
+          {
+            "name": "Herbs, Spices & Seasoning",
+            "url": "https://www.jumia.com.ng/herbs-spices-seasonings/",
+            "count": 67
+          },
+          {
+            "name": "Malt Drinks",
+            "url": "https://www.jumia.com.ng/malt-drinks/",
+            "count": 2
+          },
+          {
+            "name": "Coffee",
+            "url": "https://www.jumia.com.ng/coffee-espresso/",
+            "count": 55
+          },
+          {
+            "name": "Water",
+            "url": "https://www.jumia.com.ng/water-3080/",
+            "count": 1
+          },
+          {
+            "name": "Cooking Oil",
+            "url": "https://www.jumia.com.ng/cooking-oil/",
+            "count": 16
+          }
+        ]
+      },
+      {
+        "name": "Beverages",
+        "url": "https://www.jumia.com.ng/beverages/",
+        "children": [
+          {
+            "name": "Soft Drink",
+            "url": "https://www.jumia.com.ng/soft-drinks/",
+            "count": 1
+          },
+          {
+            "name": "Milk & Cream",
+            "url": "https://www.jumia.com.ng/grocery-milk-cream/",
+            "count": 33
+          },
+          {
+            "name": "Energy Drink",
+            "url": "https://www.jumia.com.ng/energy-drinks/",
+            "count": 4
+          },
+          {
+            "name": "Bottled Beverages",
+            "url": "https://www.jumia.com.ng/bottled-beverages-water-drink-mixes/",
+            "count": 66
+          },
+          {
+            "name": "Juices",
+            "url": "https://www.jumia.com.ng/juice-drinks/",
+            "count": 15
+          }
+        ]
+      },
+      {
+        "name": "Household Cleaning",
+        "url": "https://www.jumia.com.ng/household-cleaning/",
+        "children": [
+          {
+            "name": "Laundry",
+            "url": "https://www.jumia.com.ng/laundry-supplies/",
+            "count": 210
+          },
+          {
+            "name": "Air Fresheners",
+            "url": "https://www.jumia.com.ng/air-fresheners-d/",
+            "count": 1333
+          },
+          {
+            "name": "Toilet Paper & Wipes",
+            "url": "https://www.jumia.com.ng/wet-wipes/",
+            "count": 283
+          },
+          {
+            "name": "Bathroom Cleaners",
+            "url": "https://www.jumia.com.ng/household-bathroom-toilet-cleaners/",
+            "count": 140
+          },
+          {
+            "name": "Dishwashing",
+            "url": "https://www.jumia.com.ng/dishwashing-products/",
+            "count": 159
+          },
+          {
+            "name": "Cleaning Tools",
+            "url": "https://www.jumia.com.ng/household-cleaning-tools/",
+            "count": 249
+          }
+        ]
+      },
+      {
+        "name": "Beer, Wine & Spirits",
+        "url": "https://www.jumia.com.ng/beers-wine-spirits/",
+        "children": [
+          {
+            "name": "Beers",
+            "url": "https://www.jumia.com.ng/beers/",
+            "count": 0
+          },
+          {
+            "name": "Vodka",
+            "url": "https://www.jumia.com.ng/vodka/",
+            "count": 0
+          },
+          {
+            "name": "Red Wine",
+            "url": "https://www.jumia.com.ng/red-wine/",
+            "count": 0
+          },
+          {
+            "name": "Champagne & Sparkling Wine",
+            "url": "https://www.jumia.com.ng/champagne-sparkling-wine/",
+            "count": 15
+          },
+          {
+            "name": "White Wine",
+            "url": "https://www.jumia.com.ng/white-wine/",
+            "count": 0
+          },
+          {
+            "name": "Whiskey",
+            "url": "https://www.jumia.com.ng/whiskey/",
+            "count": 0
+          },
+          {
+            "name": "Liquors",
+            "url": "https://www.jumia.com.ng/liqueor/",
+            "count": 0
+          }
+        ]
+      },
+      {
+        "name": "Baby Products",
+        "url": "https://www.jumia.com.ng/baby-products/",
+        "children": [
+          {
+            "name": "Disposable Diapers",
+            "url": "https://www.jumia.com.ng/baby-disposable-diapers/",
+            "count": 328
+          },
+          {
+            "name": "Bottle Feeding",
+            "url": "https://www.jumia.com.ng/baby-bottle-feeding/",
+            "count": 877
+          },
+          {
+            "name": "Wipes & Refills",
+            "url": "https://www.jumia.com.ng/baby-wipes-refills/",
+            "count": 195
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Computing",
+    "url": "https://www.jumia.com.ng/computing/",
+    "subcategories": [
+      {
+        "name": "Computers",
+        "url": "https://www.jumia.com.ng/computer-accessories/",
+        "children": [
+          {
+            "name": "Desktops",
+            "url": "https://www.jumia.com.ng/desktop-computers/",
+            "count": 383
+          },
+          {
+            "name": "Laptops",
+            "url": "https://www.jumia.com.ng/laptops/",
+            "count": 56069
+          },
+          {
+            "name": "Macbooks",
+            "url": "https://www.jumia.com.ng/macbooks/",
+            "count": 37
+          },
+          {
+            "name": "Gaming Laptops",
+            "url": "https://www.jumia.com.ng/gaming-laptops/",
+            "count": 234
+          },
+          {
+            "name": "HP Elitebook",
+            "url": "https://www.jumia.com.ng/mlp-hp-elitebook/",
+            "count": 23604
+          },
+          {
+            "name": "Dell Latitude",
+            "url": "https://www.jumia.com.ng/mlp-dell-latitude/",
+            "count": 3984
+          },
+          {
+            "name": "Lenovo Thinkpad",
+            "url": "https://www.jumia.com.ng/mlp-lenovo-thinkpad/",
+            "count": 63
+          },
+          {
+            "name": "Asus Zenbook",
+            "url": "https://www.jumia.com.ng/mlp-asus-zenbook/",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "name": "Data Storage",
+        "url": "https://www.jumia.com.ng/computer-data-storage/",
+        "children": [
+          {
+            "name": "External Hard Drives",
+            "url": "https://www.jumia.com.ng/external-hd/",
+            "count": 428
+          },
+          {
+            "name": "USB Flash Drives",
+            "url": "https://www.jumia.com.ng/flash-drives/",
+            "count": 928
+          },
+          {
+            "name": "External Solid State",
+            "url": "https://www.jumia.com.ng/external-solid-state-drives/",
+            "count": 57
+          }
+        ]
+      },
+      {
+        "name": "Printers",
+        "url": "https://www.jumia.com.ng/printers/",
+        "children": [
+          {
+            "name": "Inkjet Printers",
+            "url": "https://www.jumia.com.ng/inkjet-printers/",
+            "count": 742
+          },
+          {
+            "name": "Laser Printers",
+            "url": "https://www.jumia.com.ng/laser-printers/",
+            "count": 588
+          },
+          {
+            "name": "Printer Ink & Toner",
+            "url": "https://www.jumia.com.ng/printer-ink-toner/",
+            "count": 2254
+          }
+        ]
+      },
+      {
+        "name": "Computer Accessories",
+        "url": "https://www.jumia.com.ng/computing-accessories/",
+        "children": [
+          {
+            "name": "Keyboards & Mice",
+            "url": "https://www.jumia.com.ng/keyboards-mice-accessories/",
+            "count": 2446
+          },
+          {
+            "name": "PC Gaming Hardware",
+            "url": "https://www.jumia.com.ng/computer-pc-game-hardware-d/",
+            "count": 161
+          },
+          {
+            "name": "Uninterrupted Power Supply",
+            "url": "https://www.jumia.com.ng/battery-backup-ups/",
+            "count": 121
+          },
+          {
+            "name": "Memory Cards",
+            "url": "https://www.jumia.com.ng/computer-memory-cards/",
+            "count": 19
+          },
+          {
+            "name": "Batteries",
+            "url": "https://www.jumia.com.ng/laptop-accessories-batteries/?q=computer+batter",
+            "count": 1520
+          },
+          {
+            "name": "Scanners",
+            "url": "https://www.jumia.com.ng/scanners/",
+            "count": 107
+          },
+          {
+            "name": "Video Projectors",
+            "url": "https://www.jumia.com.ng/video-projectors-d/",
+            "count": 0
+          },
+          {
+            "name": "Bluetooth Keyboards",
+            "url": "https://www.jumia.com.ng/mlp-bluetooth-keyboard/",
+            "count": 563
+          },
+          {
+            "name": "Bluetooth Mouse",
+            "url": "https://www.jumia.com.ng/mlp-bluetooth-mouse/",
+            "count": 520
+          }
+        ]
+      },
+      {
+        "name": "Top Brands",
+        "url": "https://www.jumia.com.ng/mlp-official-stores/computing/",
+        "children": [
+          {
+            "name": "HP",
+            "url": "https://www.jumia.com.ng/mlp-hp-store/",
+            "count": 19
+          },
+          {
+            "name": "Lenovo",
+            "url": "https://www.jumia.com.ng/computing/lenovo/",
+            "count": 894
+          },
+          {
+            "name": "Apple",
+            "url": "https://www.jumia.com.ng/mlp-apple-store/",
+            "count": 143
+          },
+          {
+            "name": "ASUS",
+            "url": "https://www.jumia.com.ng/mlp-asus-store/",
+            "count": 7
+          },
+          {
+            "name": "Huawei",
+            "url": "https://www.jumia.com.ng/computing/huawei/",
+            "count": 38
+          },
+          {
+            "name": "Microsoft",
+            "url": "https://www.jumia.com.ng/sp-jumia-microsoftofficial-store/",
+            "count": 0
+          },
+          {
+            "name": "Kingston",
+            "url": "https://www.jumia.com.ng/computing/kingston/",
+            "count": 5
+          },
+          {
+            "name": "Seagate",
+            "url": "https://www.jumia.com.ng/computing/seagate/",
+            "count": 134
+          },
+          {
+            "name": "Samsung",
+            "url": "https://www.jumia.com.ng/mlp-samsung-store/",
+            "count": 19
+          },
+          {
+            "name": "Sandisk",
+            "url": "https://www.jumia.com.ng/computing/sandisk/",
+            "count": 476
+          },
+          {
+            "name": "Toshiba",
+            "url": "https://www.jumia.com.ng/computing/toshiba/",
+            "count": 83
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Baby Products",
+    "url": "https://www.jumia.com.ng/baby-products/",
+    "subcategories": [
+      {
+        "name": "Apparel & Accessories",
+        "url": "https://www.jumia.com.ng/kiddies-accessories/",
+        "children": [
+          {
+            "name": "Baby Boys",
+            "url": "https://www.jumia.com.ng/baby-boy-fashion/",
+            "count": 2045
+          },
+          {
+            "name": "Baby Girls",
+            "url": "https://www.jumia.com.ng/baby-girl-fashion-accessories/",
+            "count": 2473
+          }
+        ]
+      },
+      {
+        "name": "Diapering",
+        "url": "https://www.jumia.com.ng/baby-diapering/",
+        "children": [
+          {
+            "name": "Disposable Diapers",
+            "url": "https://www.jumia.com.ng/baby-disposable-diapers/",
+            "count": 328
+          },
+          {
+            "name": "Diaper Bags",
+            "url": "https://www.jumia.com.ng/baby-diaper-bags/",
+            "count": 352
+          },
+          {
+            "name": "Wipes & Holders",
+            "url": "https://www.jumia.com.ng/baby-wipe-holders-warmers/",
+            "count": 227
+          }
+        ]
+      },
+      {
+        "name": "Baby & Toddler Toys",
+        "url": "https://www.jumia.com.ng/baby-toddler-toys/",
+        "children": [
+          {
+            "name": "Activity Play Centers",
+            "url": "https://www.jumia.com.ng/baby-play-mats-activity-gyms/",
+            "count": 1073
+          },
+          {
+            "name": "Music & Sound",
+            "url": "https://www.jumia.com.ng/baby-music-sound-toys/",
+            "count": 67
+          },
+          {
+            "name": "Bath Toys",
+            "url": "https://www.jumia.com.ng/baby-bath-toys/",
+            "count": 84
+          }
+        ]
+      },
+      {
+        "name": "Bathing & Skin Care",
+        "url": "https://www.jumia.com.ng/baby-bathing-skin-care/",
+        "children": [
+          {
+            "name": "Washcloths & Towels",
+            "url": "https://www.jumia.com.ng/baby-washcloths-towels/",
+            "count": 304
+          },
+          {
+            "name": "Grooming & Healthcare Kits",
+            "url": "https://www.jumia.com.ng/baby-grooming-healthcare-kits/",
+            "count": 182
+          },
+          {
+            "name": "Skin Care",
+            "url": "https://www.jumia.com.ng/baby-skincare/",
+            "count": 1404
+          },
+          {
+            "name": "Bathing Tubs & Seats",
+            "url": "https://www.jumia.com.ng/baby-bath-tubs-seats/",
+            "count": 311
+          },
+          {
+            "name": "Bathroom Safety",
+            "url": "https://www.jumia.com.ng/baby-bathroom-safety/",
+            "count": 19
+          }
+        ]
+      },
+      {
+        "name": "Feeding",
+        "url": "https://www.jumia.com.ng/baby-feeding-products/",
+        "children": [
+          {
+            "name": "Bibs & Burp Cloths",
+            "url": "https://www.jumia.com.ng/baby-bibs-burp-cloths/",
+            "count": 129
+          },
+          {
+            "name": "Breastfeeding",
+            "url": "https://www.jumia.com.ng/baby-breastfeeding/",
+            "count": 475
+          },
+          {
+            "name": "Bottle-Feeding",
+            "url": "https://www.jumia.com.ng/baby-bottle-feeding/",
+            "count": 877
+          },
+          {
+            "name": "Pacifiers & Accessories",
+            "url": "https://www.jumia.com.ng/baby-pacifiers-accessories/",
+            "count": 119
+          },
+          {
+            "name": "Food Storage",
+            "url": "https://www.jumia.com.ng/baby-food-storage-on-the-go/",
+            "count": 252
+          },
+          {
+            "name": "Highchairs & Booster Seats",
+            "url": "https://www.jumia.com.ng/baby-highchairs-boosters/",
+            "count": 123
+          },
+          {
+            "name": "Solid Feeding",
+            "url": "https://www.jumia.com.ng/baby-solid-feeding/",
+            "count": 540
+          }
+        ]
+      },
+      {
+        "name": "Gear",
+        "url": "https://www.jumia.com.ng/baby-gear-products/",
+        "children": [
+          {
+            "name": "Backpacks & Carriers",
+            "url": "https://www.jumia.com.ng/baby-carriers-backpacks/",
+            "count": 505
+          },
+          {
+            "name": "Swings, Jumpers & Bouncers",
+            "url": "https://www.jumia.com.ng/baby-swing-jumpers-bouncers/",
+            "count": 405
+          },
+          {
+            "name": "Walkers",
+            "url": "https://www.jumia.com.ng/walkers-strollers/",
+            "count": 729
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Gaming",
+    "url": "https://www.jumia.com.ng/video-games/",
+    "subcategories": [
+      {
+        "name": "PlayStation",
+        "url": "https://www.jumia.com.ng/playstation-games/",
+        "children": [
+          {
+            "name": "Playstation 5",
+            "url": "https://www.jumia.com.ng/playstation-5/",
+            "count": 1590
+          },
+          {
+            "name": "Playstation 4",
+            "url": "https://www.jumia.com.ng/playstation-4/",
+            "count": 4919
+          },
+          {
+            "name": "Playstation 3",
+            "url": "https://www.jumia.com.ng/playstation-3/",
+            "count": 2968
+          },
+          {
+            "name": "Playstation",
+            "url": "https://www.jumia.com.ng/retro-gaming-playstation/",
+            "count": 30
+          },
+          {
+            "name": "Playstation Vita",
+            "url": "https://www.jumia.com.ng/playstation-vita/",
+            "count": 184
+          }
+        ]
+      },
+      {
+        "name": "XBOX",
+        "url": "https://www.jumia.com.ng/xbox-games/",
+        "children": [
+          {
+            "name": "XBOX One",
+            "url": "https://www.jumia.com.ng/xbox-one/",
+            "count": 389
+          },
+          {
+            "name": "XBOX 360",
+            "url": "https://www.jumia.com.ng/xbox-360/",
+            "count": 760
+          },
+          {
+            "name": "XBOX",
+            "url": "https://www.jumia.com.ng/retro-gaming-xbox/",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "name": "Nintendo",
+        "url": "https://www.jumia.com.ng/nintendo-gaming/",
+        "children": [
+          {
+            "name": "Nintendo 3DS",
+            "url": "https://www.jumia.com.ng/nintendo-3ds/",
+            "count": 144
+          },
+          {
+            "name": "Nintendo DS",
+            "url": "https://www.jumia.com.ng/nintendo-ds/",
+            "count": 100
+          },
+          {
+            "name": "Nintendo Switch",
+            "url": "https://www.jumia.com.ng/nintendo-switch/",
+            "count": 418
+          },
+          {
+            "name": "Nintendo Wii",
+            "url": "https://www.jumia.com.ng/nintendo-wii/",
+            "count": 231
+          }
+        ]
+      },
+      {
+        "name": "Top Games",
+        "url": "https://www.jumia.com.ng/video-games/",
+        "children": [
+          {
+            "name": "FIFA '23 PS5",
+            "url": "https://www.jumia.com.ng/catalog/?q=fifa+23+ps5",
+            "count": 24
+          },
+          {
+            "name": "PES '23 PS4",
+            "url": "https://www.jumia.com.ng/catalog/?q=fifa+23+ps4",
+            "count": 26
+          },
+          {
+            "name": "God of war ",
+            "url": "https://www.jumia.com.ng/catalog/?q=god+of+war&shipped_from=country_local#catalog-listing",
+            "count": 132
+          },
+          {
+            "name": "Spiderman",
+            "url": "https://www.jumia.com.ng/catalog/?q=spiderman+games&shipped_from=country_local#catalog-listing",
+            "count": 126
+          },
+          {
+            "name": "Call of Duty",
+            "url": "https://www.jumia.com.ng/call-of-duty/",
+            "count": 28
+          },
+          {
+            "name": "Assassin's Creed Valhalla ",
+            "url": "https://www.jumia.com.ng/catalog/?q=Assassin%27s+Creed+Valhalla",
+            "count": 35
+          },
+          {
+            "name": "The Last Of Us",
+            "url": "https://www.jumia.com.ng/catalog/?q=the+last+of+us&shipped_from=country_local#catalog-listing",
+            "count": 218
+          },
+          {
+            "name": "The Witcher 3",
+            "url": "https://www.jumia.com.ng/the-witcher-3/",
+            "count": 48
+          },
+          {
+            "name": "Metal Gear Solid",
+            "url": "https://www.jumia.com.ng/metal-gear-solid/",
+            "count": 67
+          },
+          {
+            "name": "Fallout",
+            "url": "https://www.jumia.com.ng/fallout/",
+            "count": 41
+          },
+          {
+            "name": "Madden NFL",
+            "url": "https://www.jumia.com.ng/madden-nfl/",
+            "count": 22
+          },
+          {
+            "name": "Far Cry",
+            "url": "https://www.jumia.com.ng/far-cry/",
+            "count": 162
+          },
+          {
+            "name": "Grand Theft Auto",
+            "url": "https://www.jumia.com.ng/grand-theft-auto/",
+            "count": 141
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Musical Instruments",
+    "url": "https://www.jumia.com.ng/musical-instruments/",
+    "subcategories": [
+      {
+        "name": "Musical Instruments",
+        "url": "https://www.jumia.com.ng/musical-instruments/",
+        "children": [
+          {
+            "name": "Guitars",
+            "url": "https://www.jumia.com.ng/muscial-instruments-guitars/",
+            "count": 130
+          },
+          {
+            "name": "Drums & Percussion",
+            "url": "https://www.jumia.com.ng/drums-and-percussion/",
+            "count": 246
+          },
+          {
+            "name": "Keyboards & MIDI",
+            "url": "https://www.jumia.com.ng/keyboards-midi/",
+            "count": 360
+          },
+          {
+            "name": "Wind & Woodwind Instruments",
+            "url": "https://www.jumia.com.ng/wind-woodwind-instruments/",
+            "count": 13
+          },
+          {
+            "name": "Band & Orchestra",
+            "url": "https://www.jumia.com.ng/band-orchestra/",
+            "count": 412
+          }
+        ]
+      },
+      {
+        "name": "Studio & Live Equipment",
+        "url": "https://www.jumia.com.ng/studio-recording-equipment/",
+        "children": [
+          {
+            "name": "Live Sound & Stage",
+            "url": "https://www.jumia.com.ng/live-sound-stage/",
+            "count": 631
+          },
+          {
+            "name": "Studio Recording Equipment",
+            "url": "https://www.jumia.com.ng/studio-recording-equipment/",
+            "count": 906
+          }
+        ]
+      },
+      {
+        "name": "Electronic Music & DJ Equipment",
+        "url": "https://www.jumia.com.ng/electronic-music-dj-karaoke/",
+        "children": [
+          {
+            "name": "Electronic Music, DJ & Karaoke",
+            "url": null,
+            "count": null
+          }
+        ]
+      },
+      {
+        "name": "Amplifiers & Effects",
+        "url": "https://www.jumia.com.ng/muscial-amplifiers-effects/",
+        "children": [
+          {
+            "name": "Amplifiers & Effects",
+            "url": "https://www.jumia.com.ng/muscial-amplifiers-effects/",
+            "count": 544
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Other categories",
+    "url": null,
+    "subcategories": [
+      {
+        "name": "Toys & Games",
+        "url": "https://www.jumia.com.ng/toys-games/",
+        "children": [
+          {
+            "name": "",
+            "url": null,
+            "count": null
+          },
+          {
+            "name": "Games",
+            "url": "https://www.jumia.com.ng/kids-games/",
+            "count": 1238
+          },
+          {
+            "name": "Dress Up & Pretend Play",
+            "url": "https://www.jumia.com.ng/dress-up-pretend-play/",
+            "count": 685
+          },
+          {
+            "name": "Sports & Outdoor Play",
+            "url": "https://www.jumia.com.ng/outdoor-sports-toys/",
+            "count": 630
+          },
+          {
+            "name": "",
+            "url": null,
+            "count": null
+          },
+          {
+            "name": "Top Toys & Games",
+            "url": null,
+            "count": null
+          }
+        ]
+      },
+      {
+        "name": "Automobile",
+        "url": "https://www.jumia.com.ng/automobile/",
+        "children": [
+          {
+            "name": "Car Care",
+            "url": "https://www.jumia.com.ng/car-care/",
+            "count": 6658
+          },
+          {
+            "name": "Car Electronics & Accessories",
+            "url": "https://www.jumia.com.ng/car-electronics-accessories/",
+            "count": 7147
+          },
+          {
+            "name": "Lights & Lighting Accessories",
+            "url": "https://www.jumia.com.ng/automobile-lights-lighting-accessories/",
+            "count": 2038
+          },
+          {
+            "name": "Exterior Accessories",
+            "url": "https://www.jumia.com.ng/automobile-exterior-accessories/",
+            "count": 4513
+          },
+          {
+            "name": "Oils & Fluids",
+            "url": "https://www.jumia.com.ng/oils-fluids/",
+            "count": 2794
+          },
+          {
+            "name": "Interior Accessories",
+            "url": "https://www.jumia.com.ng/automobile-interior-accessories/",
+            "count": 7852
+          },
+          {
+            "name": "Tyre & Rims",
+            "url": "https://www.jumia.com.ng/tyre-rim/",
+            "count": 566
+          }
+        ]
+      },
+      {
+        "name": "Sporting Goods",
+        "url": "https://www.jumia.com.ng/sporting-goods/",
+        "children": [
+          {
+            "name": "Cardio Training",
+            "url": "https://www.jumia.com.ng/cardio-training/",
+            "count": 956
+          },
+          {
+            "name": "Strength Training Equipment",
+            "url": "https://www.jumia.com.ng/strength-training-equipment/",
+            "count": 6883
+          },
+          {
+            "name": "Accessories",
+            "url": "https://www.jumia.com.ng/exercise-fitness-accessories/",
+            "count": 5155
+          },
+          {
+            "name": "Team Sports",
+            "url": "https://www.jumia.com.ng/team-sports/",
+            "count": 2548
+          },
+          {
+            "name": "Outdoor & Adventure",
+            "url": "https://www.jumia.com.ng/sporting-goods-outdoor-adventure/",
+            "count": 925
+          }
+        ]
+      },
+      {
+        "name": "Books, Movies and Music",
+        "url": "https://www.jumia.com.ng/books-movies-music/",
+        "children": []
+      },
+      {
+        "name": "Pet Supplies",
+        "url": "https://www.jumia.com.ng/pet-supplies/",
+        "children": []
+      },
+      {
+        "name": "Wholesale",
+        "url": "https://www.jumia.com.ng/wholesale/",
+        "children": []
+      },
+      {
+        "name": "Jumia Global",
+        "url": "https://www.jumia.com.ng/mlp-global-stores/",
+        "children": []
+      },
+      {
+        "name": "Official Stores",
+        "url": "https://www.jumia.com.ng/mlp-official-stores/",
+        "children": [
+          {
+            "name": "Adidas",
+            "url": "https://www.jumia.com.ng/mlp-adidas-store/",
+            "count": 424
+          },
+          {
+            "name": "Nestle",
+            "url": "https://www.jumia.com.ng/mlp-nestle-store/",
+            "count": 24
+          },
+          {
+            "name": "Xiaomi",
+            "url": "https://www.jumia.com.ng/mlp-xiaomi-store/",
+            "count": 92
+          },
+          {
+            "name": "Nivea",
+            "url": "https://www.jumia.com.ng/mlp-nivea-store/",
+            "count": 90
+          },
+          {
+            "name": "Apple",
+            "url": "https://www.jumia.com.ng/mlp-apple-store/",
+            "count": 143
+          },
+          {
+            "name": "Intel",
+            "url": "https://www.jumia.com.ng/mlp-intel-store/",
+            "count": 19
+          },
+          {
+            "name": "Reckitt Benckiser",
+            "url": "https://www.jumia.com.ng/mlp-reckitt-benckiser-store/",
+            "count": 89
+          },
+          {
+            "name": "Binatone",
+            "url": "https://www.jumia.com.ng/mlp-binatone-store/",
+            "count": 71
+          },
+          {
+            "name": "Nexus",
+            "url": "https://www.jumia.com.ng/mlp-nexus-store/",
+            "count": 13
+          }
+        ]
+      },
+      {
+        "name": "Grocery",
+        "url": "https://www.jumia.com.ng/groceries/",
+        "children": [
+          {
+            "name": "Food Cupboards",
+            "url": "https://www.jumia.com.ng/food-cupboard-supplies/",
+            "count": 91
+          },
+          {
+            "name": "Baby Products",
+            "url": "https://www.jumia.com.ng/baby-products/",
+            "count": 19838
+          },
+          {
+            "name": "Plastic & Paper Products",
+            "url": "https://www.jumia.com.ng/paper-plastic-household-supplies/",
+            "count": 1979
+          },
+          {
+            "name": "Drinks",
+            "url": "https://www.jumia.com.ng/drinks/",
+            "count": 195
+          },
+          {
+            "name": "Hygiene",
+            "url": "https://www.jumia.com.ng/outdoor-hygiene-sanitation/",
+            "count": 55
+          },
+          {
+            "name": "Household Cleaning",
+            "url": "https://www.jumia.com.ng/household-cleaners/",
+            "count": 584
+          },
+          {
+            "name": "Beer, Wine & Spirits",
+            "url": "https://www.jumia.com.ng/beers-wine-spirits/",
+            "count": 0
+          }
+        ]
+      },
+      {
+        "name": "Garden & Outdoors",
+        "url": "https://www.jumia.com.ng/patio-lawn-garden/",
+        "children": [
+          {
+            "name": "Power",
+            "url": null,
+            "count": null
+          }
+        ]
+      },
+      {
+        "name": "Industrial & Scientific",
+        "url": "https://www.jumia.com.ng/industrial-scientific/",
+        "children": []
+      },
+      {
+        "name": "Services",
+        "url": "https://www.jumia.com.ng/services/",
+        "children": []
+      },
+      {
+        "name": "Livestock",
+        "url": "https://www.jumia.com.ng/livestock/",
+        "children": []
+      },
+      {
+        "name": "Miscellaneous",
+        "url": "https://www.jumia.com.ng/miscellaneous/",
+        "children": []
+      }
+    ]
+  }
+]

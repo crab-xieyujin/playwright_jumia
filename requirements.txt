@@ -5,5 +5,7 @@ tenacity>=8.2.0
 fake-useragent>=1.4.0
 pandas>=2.1.0
 plotly>=5.18.0
+streamlit>=1.28.0
+deep-translator>=1.11.0
 
 # Force rebuild for pydantic-settings

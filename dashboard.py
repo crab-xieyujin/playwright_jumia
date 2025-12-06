@@ -6,12 +6,13 @@ import os
 import subprocess
 import plotly.express as px
 import plotly.graph_objects as go
+from deep_translator import GoogleTranslator
 
 st.set_page_config(page_title="Jumia Scraper Dashboard", layout="wide", page_icon="🛍️")
 
 # Sidebar Navigation
 st.sidebar.title("Navigation")
-page = st.sidebar.radio("Go to", ["Data View", "Data Analytics", "New Scrape Job"])
+page = st.sidebar.radio("Go to", ["Data View", "Data Analytics", "New Scrape Job", "Category Research"])
 
 def load_data_sqlite(db_path):
     if not os.path.exists(db_path):
@@ -459,3 +460,142 @@ elif page == "New Scrape Job":
                     status_container.update(label="❌ Scraping Failed", state="error", expanded=True)
                     st.error(f"An error occurred: {str(e)}")
                     st.code(error_details, language="python")
+
+# ==========================================
+# PAGE: Category Research
+# ==========================================
+elif page == "Category Research":
+    st.title("🗂️ Jumia Category Research")
+    st.markdown("Analyze the structure and size of Jumia's product catalog (3-Level Hierarchy).")
+
+    col1, col2 = st.columns([1, 3])
+    
+    with col1:
+        st.subheader("Run Analysis")
+        scan_mode = st.radio("Scan Mode", ["Structure Only (Fast)", "With Counts (Slow - visits all pages)"])
+        mode_arg = "with_counts" if "Counts" in scan_mode else "structure_only"
+        
+        limit_count = st.number_input("Limit items (0 for all)", min_value=0, value=0)
+        
+        if st.button("Start Analysis", type="primary"):
+            with st.spinner(f"Running {mode_arg} analysis... This may take a while."):
+                try:
+                    cmd = ["python", "jumia_category_stats.py", "--mode", mode_arg, "--output", "jumia_hierarchy.json"]
+                    if limit_count > 0:
+                        cmd.extend(["--limit", str(limit_count)])
+                        
+                    process = subprocess.run(cmd, capture_output=True, text=True)
+                    
+                    if process.returncode == 0:
+                        st.success("Analysis complete!")
+                    else:
+                        st.error("Analysis failed.")
+                        st.code(process.stderr)
+                except Exception as e:
+                    st.error(f"Error running script: {e}")
+
+    with col2:
+        st.subheader("Results")
+        stats_file = "jumia_hierarchy.json"
+        
+        if os.path.exists(stats_file):
+            try:
+                with open(stats_file, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                
+                # Calculate Metrics
+                total_l1 = len(data)
+                total_l2 = sum(len(c["subcategories"]) for c in data)
+                total_l3 = sum(len(s["children"]) for c in data for s in c["subcategories"])
+                
+                total_products = 0
+                for c in data:
+                    for s in c["subcategories"]:
+                        for child in s["children"]:
+                            if child.get("count"):
+                                total_products += child["count"]
+                            
+                # Display Metrics
+                m1, m2, m3, m4 = st.columns(4)
+                m1.metric("Main Categories", total_l1)
+                m2.metric("Subcategories", total_l2)
+                m3.metric("Leaf Nodes", total_l3)
+                m4.metric("Total Products", f"{total_products:,}")
+                
+                # Translation Helper (Cached)
+                @st.cache_data(show_spinner=False)
+                def translate_text(text):
+                    if not text: return ""
+                    try:
+                        return GoogleTranslator(source='auto', target='zh-CN').translate(text)
+                    except:
+                        return text
+
+                # Flatten Data for Table
+                st.info("Generating table with translations... (This might take a moment for the first run)")
+                
+                table_data = []
+                
+                # Progress bar for translation/processing
+                progress_bar = st.progress(0)
+                total_items = total_l1 + total_l2 + total_l3 # Approx
+                current_item = 0
+                
+                for c in data:
+                    l1_name = c["name"]
+                    l1_cn = translate_text(l1_name)
+                    
+                    if not c["subcategories"]:
+                        # L1 only
+                        table_data.append({
+                            "L1 Category": l1_name, "L1 CN": l1_cn,
+                            "L2 Category": "", "L2 CN": "",
+                            "L3 Category": "", "L3 CN": "",
+                            "Count": 0, "URL": c["url"]
+                        })
+                    
+                    for s in c["subcategories"]:
+                        l2_name = s["name"]
+                        l2_cn = translate_text(l2_name)
+                        
+                        if not s["children"]:
+                            # L2 only
+                            table_data.append({
+                                "L1 Category": l1_name, "L1 CN": l1_cn,
+                                "L2 Category": l2_name, "L2 CN": l2_cn,
+                                "L3 Category": "", "L3 CN": "",
+                                "Count": 0, "URL": s["url"]
+                            })
+                            
+                        for child in s["children"]:
+                            l3_name = child["name"]
+                            l3_cn = translate_text(l3_name)
+                            
+                            table_data.append({
+                                "L1 Category": l1_name, "L1 CN": l1_cn,
+                                "L2 Category": l2_name, "L2 CN": l2_cn,
+                                "L3 Category": l3_name, "L3 CN": l3_cn,
+                                "Count": child.get("count", 0), "URL": child["url"]
+                            })
+                            
+                    current_item += 1
+                    progress_bar.progress(min(current_item / max(total_l1, 1), 1.0))
+                            
+                progress_bar.empty()
+                df_stats = pd.DataFrame(table_data)
+                
+                st.dataframe(
+                    df_stats,
+                    column_config={
+                        "URL": st.column_config.LinkColumn("Link"),
+                        "Count": st.column_config.NumberColumn("Product Count", format="%d"),
+                    },
+                    use_container_width=True,
+                    height=800
+                )
+                
+            except json.JSONDecodeError:
+                st.error("Error reading stats file. It might be corrupted.")
+        else:
+            st.info("No analysis data found. Run an analysis to see results.")
+
